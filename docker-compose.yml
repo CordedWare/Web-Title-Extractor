@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web-title-extractor-service:
+    build:
+      # context: .
+      # dockerfile: Dockerfile
+      # args:
+      #   - SBT_OPTS=-Xmx2G -Xms2G
+    ports:
+      - "8006:8006"
+    environment:
+      - EMBER_HOST=0.0.0.0
+      - EMBER_PORT=8006
+    restart: unless-stopped
