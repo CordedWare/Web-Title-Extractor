@@ -169,3 +169,8 @@ user@itretyakov:~$ redis-cli
 
 ```
 ![img.png](img.png)
+
+## Дерево
+
+![img_1.png](img_1.png)
+
